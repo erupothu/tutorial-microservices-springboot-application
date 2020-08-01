@@ -6,16 +6,18 @@
 #### spring-boot-maven-plugin
 
 ## properties file
+```
 server.port=8081
 spring.application.name=employee-service
 spring.profiles.active=dev
-
+```
 ## Crud operations
 #### spring-boot-starter-data-jpa
+```
 com.h2database
 postgresql
 mysql-connector-java
-
+```
 application-dev.properties (h2)
 application-qa.properties (mysql)
 application-prod.properties (postgres)
