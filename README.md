@@ -16,11 +16,11 @@ spring.profiles.active=dev
 #### com.h2database
 #### postgresql
 #### mysql-connector-java
-
+```
 application-dev.properties (h2)
 application-qa.properties (mysql)
 application-prod.properties (postgres)
-
+```
 ## Auditing
 ## Exception Handling
 ## Log
